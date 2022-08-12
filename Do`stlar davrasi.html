@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Do`stlar davrasi</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Do`stlar davrasi's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+<link rel="stylesheet" href="slider.css">
+    <!-- Demo styles -->
+  
+  </head>
+
+  <body>
+    <section id="home">
+    <!-- Do`stlar davrasi -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="1.jpg"/><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="2.jpg"/><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="4.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="5.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="6.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="7.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="8.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="9.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="10.jpg" /><div class="t"></div>
+        </div>
+        
+        <div class="swiper-slide">
+          <img src="12.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="13.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="14.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="15.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="16.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="17.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="18.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="19.jpg" /><div class="t"></div>
+        </div>
+        <div class="swiper-slide">
+          <img src="20.jpg" /><div class="t"></div>
+        </div>
+        
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate:30,
+          stretch: 0,
+          depth: 1,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+         rewind: true,
+      });
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
